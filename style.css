@@ -1,0 +1,12 @@
+img{
+    height: 500px;
+    width: auto;
+    image-rendering: optimizeQuality;
+    
+}
+h1{color: darkgreen;
+    text-align: center;
+    font-family: monospace, Geneva, Tahoma, sans-serif;
+}
+
+p
