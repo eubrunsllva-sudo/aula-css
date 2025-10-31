@@ -1,7 +1,19 @@
+body{
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6ecff 100%);
+     /* Gradiente de fundo */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+
+
+
+
+
 img{
-    height: 500px;
-    width: 550px;
-    image-rendering: optimizeQuality;
+    height: 300px;
+    width: 350px;
     
 }
 
@@ -16,7 +28,7 @@ p{
     text-align: center;
     font-family: initial;
     color: purple;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 2.5;
 }
 /* mudanças na imagem */
@@ -39,8 +51,10 @@ button{
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-    text-align: right;
+    text-align:end;
 }
 button:hover{
     background-color: bisque;
 }
+
+
