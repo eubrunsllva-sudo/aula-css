@@ -1,12 +1,46 @@
 img{
     height: 500px;
-    width: auto;
+    width: 550px;
     image-rendering: optimizeQuality;
     
 }
-h1{color: darkgreen;
+
+
+h1{color: black;
     text-align: center;
     font-family: monospace, Geneva, Tahoma, sans-serif;
 }
 
-p
+/* estilo do parágrafo */
+p{
+    text-align: center;
+    font-family: initial;
+    color: purple;
+    font-size: 25px;
+    line-height: 2.5;
+}
+/* mudanças na imagem */
+
+img {
+          display: block; /* Ocupa toda a largura disponível */
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 70%;
+        }
+
+body{
+    background-color: gray;
+}
+
+button{
+    background-color: burlywood;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: right;
+}
+button:hover{
+    background-color: bisque;
+}
