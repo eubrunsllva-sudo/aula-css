@@ -75,3 +75,7 @@ button:hover{
     line-height: 3.5;
 }
 
+img:hover{
+    transform: scale(1.25);
+    transition: transform 0.3s;
+}
