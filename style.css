@@ -1,30 +1,38 @@
 body{
-    background: linear-gradient(135deg, #f0f4ff 0%, #e6ecff 100%);
+    background: linear-gradient(135deg, #fff0fc 0%, #0d3ee1 100%);
      /* Gradiente de fundo */
      display: flex;
      justify-content: center;
      align-items: center;
      height: 100vh;
 }
-
+#card {
+background-color: white;
+padding: 50px;
+border-radius: 20px;
+text-align: center;
+width: 350px;
+height: 450px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
 
 
 
 
 img{
-    height: 300px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     
 }
 
 
-h1{color: black;
+h1{color: rgb(90, 52, 133);
     text-align: center;
-    font-family: monospace, Geneva, Tahoma, sans-serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* estilo do parágrafo */
-p{
+#texto-principal{
     text-align: center;
     font-family: initial;
     color: purple;
@@ -47,14 +55,23 @@ body{
 button{
     background-color: burlywood;
     color: white;
-    border: none;
-    padding: 10px 20px;
+    border-radius: 2px;
+    padding: 15px 20px;
     border-radius: 8px;
     cursor: pointer;
-    text-align:end;
+    text-align: left;
 }
 button:hover{
     background-color: bisque;
 }
 
+.legenda {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    font-family: initial;
+    color: rgb(26, 23, 23);
+    font-size: 20px;
+    line-height: 3.5;
+}
 
